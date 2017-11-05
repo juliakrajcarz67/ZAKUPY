@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#zakupy {
+    overflow: hidden;
+    background-color: #98fb98;
+    padding: 70px 90px;
+}
+
+#zakupy-product-1 {
+    background-image: url(../img/product-1.jpg);
+}
+
+#zakupy-product-2 {
+    background-image: url(../img/product-2.jpg);
+}
+
+#zakupy-product-3 {
+    background-image: url(../img/product-3.jpg);
+}
+
+#zakupy-product-4 {
+    background-image: url(../img/product-4.jpg);
+}
+
+#zakupy .zakupy-product{
+    height: 200px;
+    width: 24%;
+    float: left;
+    margin: 5px;
+    background-position: center;
+    background-size: cover; 
+    display: inline-block;
+}
+
+#zakupy .zakupy-product-mask {
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    transition: all 0.3s;
+    background-color: #ff6f00;
+}
+
+#zakupy .zakupy-product-mask:hover {
+    opacity: 0.8;
+}
+
+#zakupy .zakupy-product-content a{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+            
+                   
