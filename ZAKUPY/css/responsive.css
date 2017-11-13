@@ -1,6 +1,6 @@
-@media (max-width: 992px){
+@media (max-width: 992px) and (min-width: 480px){
     #zakupy .zakupy-product {
-        width: 50%;
+        width: 48%;
     }
 }
 
